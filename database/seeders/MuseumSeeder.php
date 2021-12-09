@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
-class RealstateSeeder extends Seeder
+class MuseumSeeder extends Seeder
 {
     /**
      * Run the database seeds.

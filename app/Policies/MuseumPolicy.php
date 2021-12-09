@@ -2,11 +2,11 @@
 
 namespace App\Policies;
 
-use App\Models\Realstate;
+use App\Models\Museum;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-class RealstatePolicy
+class MuseumPolicy
 {
     use HandlesAuthorization;
 
@@ -25,10 +25,10 @@ class RealstatePolicy
      * Determine whether the user can view the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Realstate  $realstate
+     * @param  \App\Models\Museum  $museum
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function view(User $user, Realstate $realstate)
+    public function view(User $user, Museum $museum)
     {
         //
     }
@@ -48,10 +48,10 @@ class RealstatePolicy
      * Determine whether the user can update the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Realstate  $realstate
+     * @param  \App\Models\Museum  $museum
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function update(User $user, Realstate $realstate)
+    public function update(User $user, Museum $museum)
     {
         //
     }
@@ -60,10 +60,10 @@ class RealstatePolicy
      * Determine whether the user can delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Realstate  $realstate
+     * @param  \App\Models\Museum  $museum
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function delete(User $user, Realstate $realstate)
+    public function delete(User $user, Museum $museum)
     {
         //
     }
@@ -72,10 +72,10 @@ class RealstatePolicy
      * Determine whether the user can restore the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Realstate  $realstate
+     * @param  \App\Models\Museum  $museum
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function restore(User $user, Realstate $realstate)
+    public function restore(User $user, Museum $museum)
     {
         //
     }
@@ -84,10 +84,10 @@ class RealstatePolicy
      * Determine whether the user can permanently delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Realstate  $realstate
+     * @param  \App\Models\Museum  $museum
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function forceDelete(User $user, Realstate $realstate)
+    public function forceDelete(User $user, Museum $museum)
     {
         //
     }

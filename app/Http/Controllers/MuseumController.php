@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Realstate;
-use App\Http\Requests\StoreRealstateRequest;
-use App\Http\Requests\UpdateRealstateRequest;
+use App\Models\Museum;
+use App\Http\Requests\StoreMuseumRequest;
+use App\Http\Requests\UpdateMuseumRequest;
 
-class RealstateController extends Controller
+class MuseumController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -31,10 +31,10 @@ class RealstateController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreRealstateRequest  $request
+     * @param  \App\Http\Requests\StoreMuseumRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreRealstateRequest $request)
+    public function store(StoreMuseumRequest $request)
     {
         //
     }
@@ -42,10 +42,10 @@ class RealstateController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Realstate  $realstate
+     * @param  \App\Models\Museum  $museum
      * @return \Illuminate\Http\Response
      */
-    public function show(Realstate $realstate)
+    public function show(Museum $museum)
     {
         //
     }
@@ -53,10 +53,10 @@ class RealstateController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Realstate  $realstate
+     * @param  \App\Models\Museum  $museum
      * @return \Illuminate\Http\Response
      */
-    public function edit(Realstate $realstate)
+    public function edit(Museum $museum)
     {
         //
     }
@@ -64,11 +64,11 @@ class RealstateController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateRealstateRequest  $request
-     * @param  \App\Models\Realstate  $realstate
+     * @param  \App\Http\Requests\UpdateMuseumRequest  $request
+     * @param  \App\Models\Museum  $museum
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateRealstateRequest $request, Realstate $realstate)
+    public function update(UpdateMuseumRequest $request, Museum $museum)
     {
         //
     }
@@ -76,10 +76,10 @@ class RealstateController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Realstate  $realstate
+     * @param  \App\Models\Museum  $museum
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Realstate $realstate)
+    public function destroy(Museum $museum)
     {
         //
     }
